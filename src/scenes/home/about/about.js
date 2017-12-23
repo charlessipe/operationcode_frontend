@@ -1,6 +1,5 @@
 import React from 'react';
 import ImageCard from 'shared/components/imageCard/imageCard';
-import { Link } from 'react-router-dom';
 import smallLogo from 'images/logos/large-stacked-logo-blue.png';
 import armySeal from 'images/serviceSeals/Army.png';
 import navySeal from 'images/serviceSeals/Navy.png';
@@ -18,16 +17,17 @@ const About = () => (
   <div>
     <Section title="Donate" theme="white">
       <p>
-        Operation Code depends on your donations to help veterans learn to code and find employment in the tech industry. You can read about our organization&apos;s history <Link to="/history">here</Link>.
+        Operation Code depends on your donations to help veterans learn to code and find employment in the technology industry.
       </p>
 
       <div className={styles.moocCards}>
         <ImageCard
           image={smallLogo}
-          title="Donate Today"
-          cardText="12 Backers: Yearly Budget: $1355"
-          buttonText="Donate"
-          link="https://edx.org/"
+          title="Become a Backer"
+          cardText="Become a backer for $10.00 per month and help us sustain our activities!
+"
+          buttonText="Donate $10/Per Month"
+          link="https://opencollective.com/operationcode-collective/order/122"
         />
       </div>
 
