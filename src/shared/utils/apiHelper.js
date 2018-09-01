@@ -33,7 +33,15 @@ export const getMentor = id => makeGenericGet(`mentors/${id}`);
 
 export const getRequests = () => makeGenericGet('requests');
 
-export const getScholarships = () => makeGenericGet('scholarships');
+export function getMeetups() {
+  return axios.get('https://crossorigin.me/https://api.meetup.com/OperationCode-SeattleWA/events').then(({ data }) => data);
+}
+
+export function getScholarships() {
+  return axios.get('https://api.operationcode.org/api/v1/scholarships').then(({ data }) => data);
+}
+
+
 export const getScholarship = id => makeGenericGet(`scholarships/${id}`);
 
 export function postRequest({

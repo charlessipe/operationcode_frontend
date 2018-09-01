@@ -1,0 +1,17 @@
+.joinSection {
+  background-image: url('images/upcoming-meetups-background.png');
+  background-position:center;
+  max-width: 100%;
+  height: auto;
+}
+
+.fontIncrease {
+  font-size: 120%;
+}
+
+.successStoriesContent {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}

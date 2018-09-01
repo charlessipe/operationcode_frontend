@@ -7,6 +7,7 @@ import Hero from './hero/hero';
 import Membership from './membership/membership';
 import MoreInformation from './moreInformation/moreInformation';
 import SuccessStories from './successStories/successStories';
+import UpcomingMeetups from './upcomingMeetups/upcomingMeetups';
 import Partners from './partners/partners';
 import Donate from '../../../shared/components/donate/donate';
 import Join from '../../../shared/components/join/join';
@@ -55,6 +56,7 @@ class Landing extends Component {
         <Membership />
         <MoreInformation />
         <SuccessStories />
+        <UpcomingMeetups />
         <Partners />
         <Donate />
         <Join />
