@@ -1,8 +1,7 @@
-.joinSection {
+.meetupsSection {
   background-image: url('images/upcoming-meetups-background.png');
   background-position:center;
-  max-width: 100%;
-  height: auto;
+  height: 500px;
 }
 
 .fontIncrease {

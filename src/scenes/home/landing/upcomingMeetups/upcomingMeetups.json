@@ -1,25 +1,78 @@
 {
-  "items": [
-    {
-      "title": "Operation Code at Axon",
-      "date": "Oct 1, 2018",
-      "body":
-        "You're invited to our Operation Code Meetup, located at and hosted by Axon in Seattle! Our speakers will be sharing their experiences and career and technical insights that will help give our guests the edge in building their careers.",
-      "imageUrl": "images/Jon-Deng.jpg"
-    },
-    {
-      "title": "Jameel Matin",
-      "date": "Oct 15, 2018",
-      "body":
-        "\"Operation Code has helped me navigate my tech career from choosing the right code school to solving complex software problems. They helped bring me out of homelessness and into a six-figure salary as a full stack engineer for a venture capital firm.\" Jameel Matin, USMC, Software Engineer",
-      "imageUrl": "images/Jameel-Matin.jpg"
-    },
-    {
-      "title": "Sean McBride",
-      "date": "Oct 19, 2018",
-      "body":
-        "\"If you had told me when I separated from the military that I would eventually be the lead developer on a pretty complex piece of software, I would have told you that you were nuts. However, several years and pivots later here I am. While it was a hard slog to get here, I chalk up much of my success as due to Operation Code.",
-      "imageUrl": "images/Sean-McBride.jpg"
-    }
-  ]
+"0": {
+"created": 1521167412000,
+"duration": 9000000,
+"id": "248789615",
+"name": "Operation Code at Capital One",
+"status": "upcoming",
+"time": 1537923600000,
+"local_date": "2018-09-25",
+"local_time": "18:00",
+"updated": 1536184272000,
+"utc_offset": -25200000,
+"waitlist_count": 0,
+"yes_rsvp_count": 27,
+"venue": {
+"id": 25859425,
+"name": "Capital One",
+"lat": 47.62345504760742,
+"lon": -122.32955169677734,
+"repinned": true,
+"address_1": "501 Eastlake Ave E",
+"address_2": "Suite 400",
+"city": "Seattle",
+"country": "us",
+"localized_country_name": "USA",
+"zip": "98109",
+"state": "wa"
+},
+"group": {
+"created": 1481573021000,
+"name": "Operation Code: Seattle",
+"id": 21557289,
+"join_mode": "open",
+"lat": 47.61000061035156,
+"lon": -122.33000183105469,
+"urlname": "OperationCode-SeattleWA",
+"who": "coders",
+"localized_location": "Seattle, WA",
+"region": "en_US",
+"timezone": "US/Pacific"
+},
+"link": "https://www.meetup.com/OperationCode-SeattleWA/events/248789615/",
+"description": "<p>• What we'll do:<br/>You're invited to our Operation Code Meetup, located at and hosted by Capital One in Seattle! Our speakers will be sharing their experiences and career and technical insights that will help give our guests the edge in building their careers.</p> <p>• Veteran Organizations:<br/>-We'll spotlight our supporting Veteran Service Organizations: FourBlock, USO, The Mission Continues and Travis Manion Foundation, who are helping veterans and serving the community in many different ways.</p> <p>• Who else will be there?:<br/>-We'll have mentors and guests coming from Capital One, Chef Software, Unity, Stryker, Microsoft, Amazon, Amazon Web Services, Oracle, and many more!</p> <p>*********************************************</p> <p>• What's the format of the meetup?<br/>- From 6pm to 6:30pm, we'll eat, drink, and build our connections through informal networking with mentors, developers, entrepreneurs and business leaders.<br/>- 6:30pm to 8pm, we'll hear from our esteemed speakers and guests.<br/>- 8pm to 9pm, an opportunity for guests to build new connections with other guests, mentors, and presenters.</p> <p>• Who's this for?<br/>- Our meetups are geared towards: software/systems engineers, entrepreneurs, new developers, technical mentors with experience in the tech industry, career mentors with experience in leadership, and those who are interested in expanding their perspectives.<br/>- We are an inclusive community and we invite all veterans and non-veterans to come to share, listen, and learn.<br/>- Those interested in developing careers in tech<br/>- Experienced developers and / or leaders in software industry to share experiences and mentor others.</p> <p>• What do I need to bring?<br/>- An interest in learning more about the tech industry<br/>- A willingness to connect with others</p> <p>• Are food and drinks provided?<br/>Yes, Capital One is hosting food and drinks!</p> ",
+"visibility": "public",
+"pro_is_email_shared": true
+},
+"1": {
+"created": 1521167534000,
+"duration": 9000000,
+"id": "248789657",
+"name": "Operation Code's last Meetup for 2018 at...",
+"status": "upcoming",
+"time": 1540342800000,
+"local_date": "2018-10-23",
+"local_time": "18:00",
+"updated": 1531522495000,
+"utc_offset": -25200000,
+"waitlist_count": 0,
+"yes_rsvp_count": 9,
+"group": {
+"created": 1481573021000,
+"name": "Operation Code: Seattle",
+"id": 21557289,
+"join_mode": "open",
+"lat": 47.61000061035156,
+"lon": -122.33000183105469,
+"urlname": "OperationCode-SeattleWA",
+"who": "coders",
+"localized_location": "Seattle, WA",
+"region": "en_US",
+"timezone": "US/Pacific"
+},
+"link": "https://www.meetup.com/OperationCode-SeattleWA/events/248789657/",
+"description": "<p>This will be the last 2018 Meetup for the year, then we start up again in January 22, 2019!</p> ",
+"visibility": "public",
+"pro_is_email_shared": true
+}
 }

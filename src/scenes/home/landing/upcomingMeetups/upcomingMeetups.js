@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import { getMeetups } from 'shared/utils/apiHelper';
 import Section from 'shared/components/section/section';
 import styles from './upcomingMeetups.css';
+import content from './upcomingMeetups.json';
 
 
 class Meetups extends Component {
   state = {
-    meetups: null
+    meetups: content
   };
-
-  componentWillMount() {
-    getMeetups().then((data) => {
-      this.setState({ meetups: data });
-    });
-  }
 
   render() {
     let currentMeetups;
@@ -22,18 +16,24 @@ class Meetups extends Component {
     } else if (this.state.meetups.length === 0) {
       currentMeetups = (
         <p>
-          There are no scholarships available at this time, please check back periodically for more
+          There are no meetups available at this time, please check back periodically for more
           opportunities.
         </p>
       );
     } else {
-      currentMeetups = this.state.meetups.map(upcomingEvent => (
-        <div key={upcomingEvent.name} upcomingEvent={upcomingEvent} />
-      ));
+      currentMeetups = (
+        <p>
+          Get meetup data.
+
+        </p>
+      );
     }
     return (
-      <Section title="UpcomingMeetups">
-        <div className={styles.container}>{currentMeetups}</div>
+      <Section className={styles.meetupsSection} title="UpcomingMeetups">
+        <div>
+          <div>{currentMeetups}</div>
+          <p>Hi</p>
+        </div>
       </Section>
     );
   }
